@@ -21,7 +21,6 @@ const checkPalindrome = (input) => {
   pTag.className = 'user-input';
   pTag.innerHTML = resultMessage;
   resultDiv.appendChild(pTag);
-
   resultDiv.classList.remove('hidden'); 
 };
 
