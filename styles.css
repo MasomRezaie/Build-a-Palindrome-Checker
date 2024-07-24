@@ -28,7 +28,7 @@ body {
 }
 
 .palindrome-div {
-  width: min(100vw, 450px);
+  width: 30vw;
   min-height: 100px;
   margin: 10px 0;
   padding: 20px;
@@ -78,7 +78,7 @@ label {
 }
 
 .palindrome-definition-div {
-  width: 100vw;
+  width: 30vw;
   min-height: 140px;
   margin-top: 20px;
   padding: 20px;
