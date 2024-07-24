@@ -78,7 +78,7 @@ label {
 }
 
 .palindrome-definition-div {
-  width: min(100vw, 450px);
+  width: 100vw;
   min-height: 140px;
   margin-top: 20px;
   padding: 20px;
@@ -98,4 +98,10 @@ label {
 .Author {
   color: rgb(4, 155, 4);
   margin-top: 46px;
+}
+
+@media (min-width: 450px) {
+  .element {
+    width: 450px;
+  }
 }
