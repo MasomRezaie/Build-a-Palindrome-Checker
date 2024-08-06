@@ -105,3 +105,38 @@ label {
     width: 450px;
   }
 }
+
+@media (max-width: 600px){
+  .palindrome-input {
+    width: 100px;
+  }
+}
+
+@media (max-width: 400px){
+  .palindrome-input {
+    width: 80px;
+  }
+
+  .palindrome-definition-div {
+    width: 14vw;
+  }
+
+}
+
+@media (min-width: 400px) {
+  .palindrome-definition-div {
+    width: 35vw;
+  }
+}
+
+@media (min-width: 375px) {
+  .palindrome-definition-div {
+    width: 35vw;
+  }
+}
+
+@media (min-width: 360px) {
+  .palindrome-definition-div {
+    width: 35vw;
+  }
+}
